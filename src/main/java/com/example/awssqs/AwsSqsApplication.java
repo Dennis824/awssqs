@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AwssqsApplication {
+public class AwsSqsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AwssqsApplication.class, args);
+        SpringApplication.run(AwsSqsApplication.class, args);
     }
 
 }
