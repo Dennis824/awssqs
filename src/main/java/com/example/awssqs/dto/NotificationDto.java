@@ -10,5 +10,5 @@ public record NotificationDto(String id,
                               String subject,
                               String text,
                               String recipientUid,
-                              String recipient) {
+                              RecipientDto recipient) {
 }
